@@ -2,7 +2,7 @@ const products = [
   {
     id: "Grt223",
     name: "Remera Extreme",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 400,
     stock: 10,
     image: "/img/remera-h.jpg",
@@ -11,7 +11,7 @@ const products = [
   {
     id: "Grt224",
     name: "Remera Fitz Roy",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 420,
     stock: 4,
     image: "/img/remera-m.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: "Hff556",
     name: "Pantalon Dorian",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 720,
     stock: 5,
     image: "/img/pantalon-h.jpg",
@@ -29,7 +29,7 @@ const products = [
   {
     id: "Hff557",
     name: "Pantalon Ambar",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 620,
     stock: 17,
     image: "/img/pantalon-m.jpg",
@@ -38,7 +38,7 @@ const products = [
   {
     id: "Wre442",
     name: "Zapatillas Cloudfield",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 800,
     stock: 2,
     image: "/img/zapatillas-m.jpg",
@@ -47,7 +47,7 @@ const products = [
   {
     id: "Wre443",
     name: "Zapatillas Space",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 820,
     stock: 6,
     image: "/img/zapatillas-h.jpg",
