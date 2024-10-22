@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar/NavBar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import ItemListContainerWithHoc from "./components/ItemListContainer/ItemListContainer"
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='container-app'>
       <NavBar />
-      <ItemListContainer saludo={"Bienvenidos a mi ecommerce"} />
+      <ItemListContainerWithHoc />
     </div>
   )
 }
