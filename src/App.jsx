@@ -3,6 +3,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+import EjemploFormulario from './components/Ejemplos/EjemploFormulario'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <div className='container-app'>
       <BrowserRouter>
         <NavBar />
-
+        <EjemploFormulario />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/category/:idCategory" element={ <ItemListContainer /> } />
