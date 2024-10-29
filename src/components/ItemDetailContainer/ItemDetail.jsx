@@ -1,15 +1,19 @@
 import ItemCount from "../ItemCount/ItemCount"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { cartContext } from "../../context/CartContext"
+import { Link } from "react-router-dom"
 import "./itemdetail.css"
 
 const ItemDetail = ({ product }) => {
+  const [showItemCount, setShowItemCount] = useState(true)
   const { addProductInCart } = useContext(cartContext)
 
   const addProduct = (count) => {
     const productCart = { ...product, quantity: count }
-    
+
     addProductInCart(productCart)
+    //cambiamos el estado para poder ocultar ItemCount
+    setShowItemCount(false)
   }
 
   return (
@@ -27,7 +31,14 @@ const ItemDetail = ({ product }) => {
         <p className="text-detail">{product.description}</p>
         <p className="text-detail">Precio: ${product.price}</p>
 
-        <ItemCount stock={product.stock} addProduct={addProduct} />
+        {
+          //Renderizado condicional con un ternario
+          showItemCount === true ?
+            (<ItemCount stock={product.stock} addProduct={addProduct} />)
+            :
+            (<Link to="/cart">Terminar mi compra</Link>)
+        }
+
       </div>
     </div>
   )
